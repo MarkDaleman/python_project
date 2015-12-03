@@ -15,14 +15,14 @@ def getTweets():
     # Achterlijk groot getal
     maxTweets = 10000
     # Op welke hashtag gaan we zoeken
-    searchQuery = 'Nederland'
+    searchQuery = 'SanBernadino'
     print("Table is being filled now. With tweets")
     auth = OAuthHandler(consumer_key, consumer_secret)
     # Zorgen dat de API kan verbinden
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
     # Python laten verbinden met de Sqlite database
-    conn = sqlite3.connect('tweets.db')
+    conn = sqlite3.connect('engels.db')
     c = conn.cursor()
     searched_tweets = [status for status in tweepy.Cursor(api.search, q=searchQuery).items(maxTweets)]
     for tweet in searched_tweets:
@@ -31,6 +31,26 @@ def getTweets():
     # Database wijzigingen opslaan
     conn.commit()
     print("Database is up to date! ^.^")
+
+def oneTweet():
+    maxTweets = 2
+    searchQuery = 'france'
+    auth = OAuthHandler(consumer_key, consumer_secret)
+    auth.set_access_token(access_token, access_token_secret)
+    api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+    searched_tweets = [status for status in tweepy.Cursor(api.search, q=searchQuery).items(maxTweets)]
+    for (tweet) in searched_tweets:
+        print(searched_tweets)
+        print("Text van de Tweet")
+        print(tweet.text)
+        print("Timezone van de Tweet")
+        print(tweet.user.time_zone)
+        print("Screen name")
+        print(tweet.user.screen_name)
+        print("name")
+        print(tweet.user.name)
+        print("\n")
+
 
 
 def clearTabel():
@@ -56,8 +76,7 @@ def drawSomething():
     plt.show()
 
 if __name__ == '__main__':
-    countTweets();
-    drawSomething();
+    oneTweet()
 
 
 
