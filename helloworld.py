@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import tweepy
 from tweepy import OAuthHandler
 from textblob import TextBlob
-import numpy as np
+import hello
 
 
 
@@ -15,10 +15,11 @@ consumer_secret = "7OIv98yOr4Ep3vCJpR3XdSMW3wcDfGURbvWvVmwwuBKg6KIE7C"
 
 
 def getTweets():
+    print("Tweets aan het verzamelen...")
     # Achterlijk groot getal
-    maxTweets = 500
+    maxTweets = 1000
     # Op welke hashtag gaan we zoeken
-    searchQuery = 'happy'
+    searchQuery = 'StarWars'
     auth = OAuthHandler(consumer_key, consumer_secret)
     # Zorgen dat de API kan verbinden
     auth.set_access_token(access_token, access_token_secret)
@@ -97,10 +98,7 @@ def analyseTweets():
     plt.axis('equal')
     plt.show()
 if __name__ == '__main__':
-    clearAnalyseTabel()
-    clearTweetTabel()
-    getTweets()
-    analyseTweets()
+    hello.halloWereld("hashtag")
 
 
 
