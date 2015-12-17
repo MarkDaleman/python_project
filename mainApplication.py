@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import tweepy
 from tweepy import OAuthHandler
 from textblob import TextBlob
-import hello
+import oneTweet
 
 
 
@@ -98,7 +98,7 @@ def analyseTweets():
     plt.axis('equal')
     plt.show()
 if __name__ == '__main__':
-    hello.halloWereld("hashtag")
+    oneTweet.getOneTweet("hashtag")
 
 
 
