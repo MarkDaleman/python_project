@@ -3,9 +3,7 @@ import matplotlib.pyplot as plt
 import tweepy
 from tweepy import OAuthHandler
 from textblob import TextBlob
-import oneTweet
-
-
+from onetweet import getOneTweet
 
 #Variables that contains the user credentials to access Twitter API
 access_token = "579994863-7kUav4vqVupLe45MQdhCXhu8Y2d7sXq3ut739BvN"
@@ -17,7 +15,7 @@ consumer_secret = "7OIv98yOr4Ep3vCJpR3XdSMW3wcDfGURbvWvVmwwuBKg6KIE7C"
 def getTweets():
     print("Tweets aan het verzamelen...")
     # Achterlijk groot getal
-    maxTweets = 1000
+    maxTweets = 50
     # Op welke hashtag gaan we zoeken
     searchQuery = 'StarWars'
     auth = OAuthHandler(consumer_key, consumer_secret)
@@ -31,6 +29,8 @@ def getTweets():
     for tweet in searched_tweets:
         tweets = (tweet.text)
         c.execute('INSERT INTO tweets VALUES(?)', (tweets,))
+        tweets = (tweet.source)
+        c.execute('INSERT INTO source VALUES(?)', (tweets,))
     # Database wijzigingen opslaan
     conn.commit()
     print("Database is up to date met de laatste tweets")
@@ -41,6 +41,9 @@ def clearTweetTabel():
     c = conn.cursor()
     c.execute("DROP TABLE IF EXISTS tweets")
     c.execute("CREATE TABLE tweets (text TEXT);")
+    c.execute("DROP TABLE IF EXISTS source")
+    c.execute("CREATE TABLE source (source TEXT);")
+
     print("Tweet tabel is verwijderd en opnieuw aangemaakt")
 
 def clearAnalyseTabel():
@@ -53,9 +56,11 @@ def clearAnalyseTabel():
 
 def analyseTweets():
     print("Ik ga nu analyseren")
+    # Zorgen dat de database kan verbinden
     conn = sqlite3.connect('engels.db')
     c = conn.cursor()
 
+    # Alle tweets verzamelen en door de textblob gooien
     tweetDatabase = conn.execute("SELECT * from tweets");
     for row in tweetDatabase:
         alleTweets = TextBlob(row[0])
@@ -65,22 +70,33 @@ def analyseTweets():
 
         c.execute("INSERT INTO analyse VALUES(?)", (alleTweets.sentiment.polarity,))
         conn.commit()
+    # Alles gelukt ? even de gebruiker laten weten
     print("Database is up to date met analysegegevens")
+
+    # Hoeveel tweets zijn er ?
     tweetAll = conn.execute("SELECT COUNT(*) FROM analyse")
     for row in tweetAll:
         tweetAll = row
 
+    # Hoeveel negatieve tweets zijn er ?
     tweetNegatief = conn.execute("SELECT COUNT(*) FROM analyse WHERE analyse < 0.0")
     for row in tweetNegatief:
         tweetNegatief = row
 
+    # Hoeveel positieve tweets zijn er ?
     tweetPositief = conn.execute("SELECT COUNT(*) FROM analyse WHERE analyse > 0.0")
     for row in tweetPositief:
         tweetPositief = row
 
+    # Hoeveel neutrale tweets zijn er ?
     tweetNeutraal = conn.execute("SELECT COUNT(*) FROM analyse WHERE analyse = 0.0")
     for row in tweetNeutraal:
         tweetNeutraal = row
+
+    tweetAlles = conn.execute("SELECT * FROM analyse")
+    for row in tweetAlles:
+        tweetAlles = row
+        print(', '.join(map(str, tweetAlles)))
 
     # DEBUG PROCENTEN
     #print (int((tweetNeutraal[0] * 100) / tweetAll[0])) #aantal Procent wat Neutraal is
@@ -97,8 +113,17 @@ def analyseTweets():
     # Set aspect ratio to be equal so that pie is drawn as a circle.
     plt.axis('equal')
     plt.show()
+
+
+
 if __name__ == '__main__':
-    oneTweet.getOneTweet("hashtag")
+    # handig om te debuggen om te kijken waar de tweet uit bestaat
+    getOneTweet("StarWars")
+
+    #clearAnalyseTabel()
+    #clearTweetTabel()
+    #getTweets()
+    #analyseTweets()
 
 
 

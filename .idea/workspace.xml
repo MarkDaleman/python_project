@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8968959d-61e5-4d67-82f4-cbb5ac3993d5" name="Default" comment="v0.6&#10;&#10;- Edited some functions">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/project_markdaleman.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database_backup_10000/2222222.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/oneTweet.py" afterPath="$PROJECT_DIR$/onetweet.py" />
+    </list>
+    <list id="4c0b32a0-463b-47bf-903d-d1f3e1afef3d" name="Failed commit: Default" comment="v0.6&#10;&#10;- Edited some functions">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mainApplication.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engels.db" afterPath="$PROJECT_DIR$/engels.db" />
+    </list>
+    <ignored path="project_markdaleman.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/project_markdaleman$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1452772035848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$onetweet.coverage" NAME="onetweet Coverage Results" MODIFIED="1452771963378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="project_markdaleman" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+                <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+                <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+                <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+                <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+                <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+                <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+                <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+                <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+                <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+                <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+                <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+                <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+                <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+                <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+                <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+                <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+                <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="onetweet.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/onetweet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4864865">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mark Daleman &lt;markdaleman@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/version" />
+        <option value="$PROJECT_DIR$/count.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/variabelen.py" />
+        <option value="$PROJECT_DIR$/hello.py" />
+        <option value="$PROJECT_DIR$/oneTweet.py" />
+        <option value="$PROJECT_DIR$/helloworld.py" />
+        <option value="$PROJECT_DIR$/module.py" />
+        <option value="$PROJECT_DIR$/mainApplication.py" />
+        <option value="$PROJECT_DIR$/onetweet.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="962" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Buildout</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8NamingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_markdaleman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_markdaleman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_markdaleman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_markdaleman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project_markdaleman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database_backup_10000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database_backup_10000" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.helloworld">
+    <configuration default="false" name="helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="version" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/version" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="count" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/count.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="onetweet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onetweet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.helloworld" />
+      <item index="1" class="java.lang.String" itemvalue="Python.version" />
+      <item index="2" class="java.lang.String" itemvalue="Python.count" />
+      <item index="3" class="java.lang.String" itemvalue="Python.onetweet" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.helloworld" />
+        <item index="1" class="java.lang.String" itemvalue="Python.onetweet" />
+        <item index="2" class="java.lang.String" itemvalue="Python.count" />
+        <item index="3" class="java.lang.String" itemvalue="Python.version" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8968959d-61e5-4d67-82f4-cbb5ac3993d5" name="Default" comment="" />
+      <created>1447920666915</created>
+      <option name="number" value="Default" />
+      <updated>1447920666915</updated>
+    </task>
+    <task id="LOCAL-00001" summary="- Eerste commit, project setup">
+      <created>1447920771793</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1447920771793</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Tweets ophalen werkt&#10;- Opslaan in database werkt&#10;- Crasht niet meer na 1500 tweets">
+      <created>1448525092665</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1448525092665</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Counter werkt nu goed">
+      <created>1448532030988</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1448532030988</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- Database is gevuld met Data en de Main is leeg">
+      <created>1449051191858</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1449051191858</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Database is gevuld met Data en de Main is leeg">
+      <created>1449062250458</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1449062250458</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- Engelse en Nederlandse database">
+      <created>1449146177616</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1449146177616</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- Edited Readme&#10;- Code working&#10;- Can draw a graph now&#10;- Working database&#10;- Switched to using TextBlob (see readme)">
+      <created>1450178282579</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1450178282579</updated>
+    </task>
+    <task id="LOCAL-00008" summary="v0.5&#10;&#10;- Graph 1 working">
+      <created>1450273751295</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1450273751295</updated>
+    </task>
+    <task id="LOCAL-00009" summary="v0.55&#10;&#10;- Edited some functions">
+      <created>1450362837507</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1450362837507</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="962" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31196582" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33062646" sideWeight="0.5021097" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32798165" sideWeight="0.4978903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39793578" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33062646" sideWeight="0.5021097" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33062646" sideWeight="0.4978903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <confirmMoveToFailedCommit value="2" />
+    <MESSAGE value="- Eerste commit, project setup" />
+    <MESSAGE value="- Tweets ophalen werkt&#10;- Opslaan in database werkt&#10;- Crasht niet meer na 1500 tweets" />
+    <MESSAGE value="- Counter werkt nu goed" />
+    <MESSAGE value="- Database is gevuld met Data en de Main is leeg" />
+    <MESSAGE value="- Engelse en Nederlandse database" />
+    <MESSAGE value="- Edited Readme&#10;- Code working&#10;- Can draw a graph now&#10;- Working database&#10;- Switched to using TextBlob (see readme)" />
+    <MESSAGE value="v1.0&#10;&#10;- Graph 1 working" />
+    <MESSAGE value="v0.5&#10;&#10;- Graph 1 working" />
+    <MESSAGE value="v0.55&#10;&#10;- Edited some functions" />
+    <MESSAGE value="v0.6&#10;&#10;- Edited some functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.6&#10;&#10;- Edited some functions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweets.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_backup_10000/2222222.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engels.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1452771672000" expanded="true" signature="1206:1234" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1299:1327" placeholder="INSERT INTO tweets... " />
+            <marker date="1452771672000" expanded="true" signature="1618:1645" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1663:1694" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="1713:1734" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1713:1740" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="1758:1791" placeholder="CREATE TABLE... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2025:2053" placeholder="DROP TABLE I... " />
+            <marker date="1452771672000" expanded="true" signature="2071:2109" placeholder="CREATE TABLE... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2427:2447" placeholder="SELECT * fro... tweets" />
+            <marker date="1452771672000" expanded="true" signature="2604:2633" placeholder="INSERT INTO analyse... " />
+            <marker date="1452771672000" expanded="true" signature="2860:2887" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="2860:2888" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3043" placeholder="SELECT * FRO... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3015:3063" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3200:3248" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3384:3432" placeholder="SELECT COUNT... analyse" />
+            <marker date="1452771672000" expanded="true" signature="3525:3546" placeholder="SELECT COUNT... analyse" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onetweet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4864865">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
