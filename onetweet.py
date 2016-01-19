@@ -20,3 +20,6 @@ def getOneTweet(searchQuery):
         print("-------------")
         print("Tweet Language: " + tweet.lang)
         print("#############")
+        print("Tweet Gemaakt op: " + str(tweet.created_at.hour))
+        print("#############")
+

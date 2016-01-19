@@ -3,7 +3,10 @@ import matplotlib.pyplot as plt
 import tweepy
 from tweepy import OAuthHandler
 from textblob import TextBlob
+from math import log
+import numpy as np
 from onetweet import getOneTweet
+
 
 #Variables that contains the user credentials to access Twitter API
 access_token = "579994863-7kUav4vqVupLe45MQdhCXhu8Y2d7sXq3ut739BvN"
@@ -15,9 +18,9 @@ consumer_secret = "7OIv98yOr4Ep3vCJpR3XdSMW3wcDfGURbvWvVmwwuBKg6KIE7C"
 def getTweets():
     print("Tweets aan het verzamelen...")
     # Achterlijk groot getal
-    maxTweets = 50
+    maxTweets = 2100
     # Op welke hashtag gaan we zoeken
-    searchQuery = 'StarWars'
+    searchQuery = 'nederland'
     auth = OAuthHandler(consumer_key, consumer_secret)
     # Zorgen dat de API kan verbinden
     auth.set_access_token(access_token, access_token_secret)
@@ -31,6 +34,8 @@ def getTweets():
         c.execute('INSERT INTO tweets VALUES(?)', (tweets,))
         tweets = (tweet.source)
         c.execute('INSERT INTO source VALUES(?)', (tweets,))
+        tweets = (tweet.created_at.hour)
+        c.execute('INSERT INTO hour VALUES(?)', (tweets,))
     # Database wijzigingen opslaan
     conn.commit()
     print("Database is up to date met de laatste tweets")
@@ -43,6 +48,8 @@ def clearTweetTabel():
     c.execute("CREATE TABLE tweets (text TEXT);")
     c.execute("DROP TABLE IF EXISTS source")
     c.execute("CREATE TABLE source (source TEXT);")
+    c.execute("DROP TABLE IF EXISTS hour")
+    c.execute("CREATE TABLE hour (hour NUMERIC);")
 
     print("Tweet tabel is verwijderd en opnieuw aangemaakt")
 
@@ -96,8 +103,21 @@ def analyseTweets():
     tweetAlles = conn.execute("SELECT * FROM analyse")
     for row in tweetAlles:
         tweetAlles = row
-        print(', '.join(map(str, tweetAlles)))
 
+    ## DEBUGGEN TIJD EN AANTAL TWEETS
+    getTijdAantal = conn.execute("SELECT hour FROM hour GROUP BY hour")
+    rowTijd = getTijdAantal.fetchall()
+    #print(rowTijd)
+    getTijdUur = conn.execute("SELECT COUNT(hour) FROM hour GROUP BY hour")
+    rowAantal = getTijdUur.fetchall()
+    #print(rowUren)
+
+
+    getTweetUur = conn.execute("SELECT hour, COUNT(hour) FROM hour GROUP BY hour ORDER BY hour")
+    getTijdInformatie = getTweetUur.fetchall()
+    #print(BlaBla)
+
+    #print(', '.join(map(str, tweetAlles)))
     # DEBUG PROCENTEN
     #print (int((tweetNeutraal[0] * 100) / tweetAll[0])) #aantal Procent wat Neutraal is
     #print (int((tweetPositief[0] * 100) / tweetAll[0])) #aantal Procent wat Positief is
@@ -110,20 +130,33 @@ def analyseTweets():
     explode = (0, 0, 0)
     plt.pie(sizes, explode=explode, labels=labels, colors=colors,
             autopct='%1.1f%%', shadow=True, startangle=90)
-    # Set aspect ratio to be equal so that pie is drawn as a circle.
-    plt.axis('equal')
+    plt.show();
+
+    x_val = [x[0] for x in getTijdInformatie]
+    y_val = [x[1] for x in getTijdInformatie]
+
+    print(x_val)
+    plt.plot(x_val,y_val)
+    plt.plot(x_val,y_val,'or')
     plt.show()
+
+
+    #hour=(rowTijd);
+    #aantal_tweets=(rowAantal);
+
+    #plt.plot_date(x=hour, y=aantal_tweets)
+    #plt.show()
 
 
 
 if __name__ == '__main__':
     # handig om te debuggen om te kijken waar de tweet uit bestaat
-    getOneTweet("StarWars")
-
+    #getOneTweet("StarWars")
     #clearAnalyseTabel()
     #clearTweetTabel()
     #getTweets()
-    #analyseTweets()
+
+    analyseTweets()
 
 
 
