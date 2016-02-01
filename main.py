@@ -17,10 +17,10 @@ consumer_secret = "7OIv98yOr4Ep3vCJpR3XdSMW3wcDfGURbvWvVmwwuBKg6KIE7C"
 
 def getTweets():
     print("Tweets aan het verzamelen...")
-    # Achterlijk groot getal
-    maxTweets = 3000
+    # Geef hier het aantal Tweets op wat je wilt verzamelen
+    maxTweets = 5000
     # Op welke hashtag gaan we zoeken
-    searchQuery = 'StarWars'
+    searchQuery = 'instagram'
     auth = OAuthHandler(consumer_key, consumer_secret)
     # Zorgen dat de API kan verbinden
     auth.set_access_token(access_token, access_token_secret)
@@ -29,6 +29,7 @@ def getTweets():
     conn = sqlite3.connect('engels.db')
     c = conn.cursor()
     searched_tweets = [status for status in tweepy.Cursor(api.search, q=searchQuery, language="en").items(maxTweets)]
+    # Tweet resultaten opslaan in de database
     for tweet in searched_tweets:
         tweets = (tweet.text)
         c.execute('INSERT INTO tweets VALUES(?)', (tweets,))
@@ -42,7 +43,7 @@ def getTweets():
 
 def clearTweetDatabase():
     # Python laten verbinden met de Sqlite database en leegmaken
-    conn = sqlite3.connect('engels.db')
+    conn = sqlite3.connect('engelss.db')
     c = conn.cursor()
     c.execute("DROP TABLE IF EXISTS tweets")
     c.execute("CREATE TABLE tweets (text TEXT);")
@@ -77,17 +78,26 @@ def analyseTweets():
     print("Database is up to date met analysegegevens")
 
     # Hoeveel tweets zijn er ?
-    tweetAll = conn.execute("SELECT COUNT(*) FROM analyse")
+    try:
+        tweetAll = conn.execute("SELECT COUNT(*) FROM analyse")
+    except sqlite3.ProgrammingError as error:
+        print(error)
     for row in tweetAll:
         tweetAll = row
 
     # Hoeveel negatieve tweets zijn er ?
-    tweetNegatief = conn.execute("SELECT COUNT(*) FROM analyse WHERE analyse < 0.0")
+    try:
+        tweetNegatief = conn.execute("SELECT COUNT(*) FROM analyse WHERE analyse < 0.0")
+    except sqlite3.ProgrammingError as error:
+        print(error)
     for row in tweetNegatief:
         tweetNegatief = row
 
     # Hoeveel positieve tweets zijn er ?
-    tweetPositief = conn.execute("SELECT COUNT(*) FROM analyse WHERE analyse > 0.0")
+    try:
+        tweetPositief = conn.execute("SELECT COUNT(*) FROM analyse WHERE analyse > 0.0")
+    except sqlite3.ProgrammingError as error:
+        print(error)
     for row in tweetPositief:
         tweetPositief = row
 
@@ -97,12 +107,18 @@ def analyseTweets():
         tweetNeutraal = row
 
     # Laten we alles selecteren
-    tweetAlles = conn.execute("SELECT * FROM analyse")
+    try:
+     tweetAlles = conn.execute("SELECT * FROM analyse")
+    except sqlite3.ProgrammingError as error:
+        print(error)
     for row in tweetAlles:
         tweetAlles = row
 
     # Hoeveel tweets zijn er per uur ?
-    getTweetUur = conn.execute("SELECT hour, COUNT(hour) FROM hour GROUP BY hour ORDER BY hour")
+    try:
+        getTweetUur = conn.execute("SELECT hour, COUNT(hour) FROM hour GROUP BY hour ORDER BY hour")
+    except sqlite3.ProgrammingError as error:
+        print(error)
     getTijdInformatie = getTweetUur.fetchall()
 
     print("Ik ga nu een Pie chart tekenen over de stemming van de mensen")
@@ -133,14 +149,13 @@ def analyseTweets():
 
 if __name__ == '__main__':
     # handig om te debuggen om te kijken waar de tweet uit bestaat
+    oneTweet("instagram")
 
-    oneTweet("Python")
+    clearAnalyseTabel()
+    clearTweetDatabase()
+    getTweets()
 
-    #clearAnalyseTabel()
-    #clearTweetDatabase()
-    #getTweets()
-
-    #analyseTweets()
+    analyseTweets()
 
 
 
