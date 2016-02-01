@@ -14,20 +14,23 @@ access_token_secret = "akQE3RjdptslhRJw7HZagWhMtoxvkZoUSNNQeO2rBDYQr"
 consumer_key = "BXwPemXe8UB9cVEDmymRjawre"
 consumer_secret = "7OIv98yOr4Ep3vCJpR3XdSMW3wcDfGURbvWvVmwwuBKg6KIE7C"
 
+#Globale variabelen vaststellen
+global conn
+conn = sqlite3.connect('engels.db')
+global c
+c = conn.cursor()
 
 def getTweets():
     print("Tweets aan het verzamelen...")
     # Geef hier het aantal Tweets op wat je wilt verzamelen
-    maxTweets = 5000
+    maxTweets = int(input("Hoeveel tweets wil je verzamelen (voer een getal in)? "))
     # Op welke hashtag gaan we zoeken
-    searchQuery = 'instagram'
+    searchQuery = str(input("Op welke #hashtag wil je zoeken ? "))
     auth = OAuthHandler(consumer_key, consumer_secret)
     # Zorgen dat de API kan verbinden
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
     # Python laten verbinden met de Sqlite database
-    conn = sqlite3.connect('engels.db')
-    c = conn.cursor()
     searched_tweets = [status for status in tweepy.Cursor(api.search, q=searchQuery, language="en").items(maxTweets)]
     # Tweet resultaten opslaan in de database
     for tweet in searched_tweets:
@@ -43,8 +46,6 @@ def getTweets():
 
 def clearTweetDatabase():
     # Python laten verbinden met de Sqlite database en leegmaken
-    conn = sqlite3.connect('engelss.db')
-    c = conn.cursor()
     c.execute("DROP TABLE IF EXISTS tweets")
     c.execute("CREATE TABLE tweets (text TEXT);")
     c.execute("DROP TABLE IF EXISTS source")
@@ -55,18 +56,12 @@ def clearTweetDatabase():
 
 def clearAnalyseTabel():
     # Python laten verbinden met de Sqlite database en leegmaken
-    conn = sqlite3.connect('engels.db')
-    c = conn.cursor()
     c.execute("DROP TABLE IF EXISTS analyse")
     c.execute("CREATE TABLE analyse (analyse NUMERIC);")
     print("analyse tabel is verwijderd en opnieuw aangemaakt")
 
 def analyseTweets():
     print("Ik ga nu analyseren")
-    # Zorgen dat de database kan verbinden
-    conn = sqlite3.connect('engels.db')
-    c = conn.cursor()
-
     # Alle tweets verzamelen en door de textblob gooien
     tweetDatabase = conn.execute("SELECT * from tweets");
     for row in tweetDatabase:
@@ -149,7 +144,7 @@ def analyseTweets():
 
 if __name__ == '__main__':
     # handig om te debuggen om te kijken waar de tweet uit bestaat
-    oneTweet("instagram")
+    oneTweet("StarWars")
 
     clearAnalyseTabel()
     clearTweetDatabase()
