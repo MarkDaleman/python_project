@@ -1,9 +1,7 @@
-import sqlite3  # nodig voor de Database
-
-import tweepy  # nodig voor het ophalen van Tweets
-from textblob import TextBlob  # voor het analyseren van de Tweets
-
-from tweepy import OAuthHandler  # zorgen voor de verbinding
+import sqlite3
+import tweepy
+from tweepy import OAuthHandler
+from textblob import TextBlob
 
 # Variables that contains the user credentials to access Twitter API
 # Consumer keys and access tokens, used for OAuth
@@ -14,10 +12,8 @@ access_token_secret = 'EbnZQvQhs0fedk6R7uhJkPVymyiV6RnvK7vKUub2pogGF'
 
 # Globale variabelen vaststellen
 global conn
-global c
-# Verbinden met de Database
-
 conn = sqlite3.connect('tweets.db')
+global c
 c = conn.cursor()
 
 
@@ -27,7 +23,7 @@ c = conn.cursor()
 # Tabel met de naam Source -> TEXT
 # Tabel met TimeStamp -> TEXT
 # Tabel voor de Analyse -> FLOAT
-def createTabel():
+def createDB():
     conn.execute('''CREATE TABLE TweetOpslag
        (ID INT PRIMARY KEY     NOT NULL,
        Tweet           TEXT    NOT NULL,
@@ -43,8 +39,8 @@ def createTabel():
 # Searchquery is voor welke hashtag je wilt zoeken
 def getTweets():
     print("Tweets aan het verzamelen...")
-    maxTweets = 1000
-    searchQuery = "Ubuntu"
+    maxTweets = 300
+    searchQuery = "python"
     auth = OAuthHandler(consumer_key, consumer_secret)
     # Zorgen dat de API kan verbinden
     auth.set_access_token(access_token, access_token_secret)
@@ -109,19 +105,6 @@ def tweetNeutraal():
         tweetNeutraal = row
         return tweetNeutraal
 
-
-# Functie voor het ophalen aantal tweets per uur
-# Return het uur, per aantal tweets [uur, tweets]
-def getTijdInformatie():
-    try:
-        getTweetUur = conn.execute(
-            "SELECT Timestamp, COUNT(Timestamp) FROM TweetOpslag GROUP BY Timestamp ORDER BY Timestamp")
-    except sqlite3.ProgrammingError as error:
-        print(error)
-    getTijdInformatie = getTweetUur.fetchall()
-    return getTijdInformatie
-
-
 # Om te debuggen of vragen ook echt negatief of positief of neutraal zijn
 # dit kan je testen met de tests.py file
 def text_analyse(sentence):
@@ -129,3 +112,18 @@ def text_analyse(sentence):
     Analyse = TextBlob(sentence)
     Mood = (Analyse.sentiment.polarity)
     return Mood
+
+# Functie voor het ophalen aantal tweets per uur
+# Return het uur, per aantal tweets [uur, tweets]
+
+def getTijdInformatie():
+    # Hoeveel tweets zijn er per uur ?
+    try:
+        getTweetUur = conn.execute("SELECT Timestamp, COUNT(Timestamp) FROM TweetOpslag GROUP BY Timestamp ORDER BY Timestamp")
+
+    except sqlite3.ProgrammingError as error:
+        print(error)
+    getTijdInformatie = getTweetUur.fetchall()
+    return getTijdInformatie
+
+
