@@ -71,6 +71,6 @@ def DisplayWindow():
 
 
 if __name__ == '__main__':
-    #analyse.createTabel()  # Maak de Database aan mocht deze niet bestaan (uncomment als het niet bestaat)
+    analyse.createTabel()  # Maak de Database aan mocht deze niet bestaan (uncomment als het niet bestaat)
     analyse.getTweets()  # Haal tweets op en analyseer deze, sla ze ook op in de sqlite database
     DisplayWindow()  # laat het venster zien
