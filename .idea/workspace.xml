@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8968959d-61e5-4d67-82f4-cbb5ac3993d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analyse.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database_backup_10000/2222222.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database_backup_10000/tweets_backup.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/onetweet.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/engels.db" afterPath="$PROJECT_DIR$/tweetdb.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyse.py" afterPath="$PROJECT_DIR$/analyse.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <list id="4c0b32a0-463b-47bf-903d-d1f3e1afef3d" name="Failed commit: Default" comment="v0.6&#10;&#10;- Edited some functions" />
@@ -24,11 +19,37 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/project_markdaleman$analyse.coverage" NAME="analyse Coverage Results" MODIFIED="1467291548432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_MyTest__3_.coverage" NAME="Unittests in MyTest (3) Coverage Results" MODIFIED="1467297060584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_markdaleman$tkinter.coverage" NAME="tkinter Coverage Results" MODIFIED="1467275077932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/project_markdaleman$test.coverage" NAME="test Coverage Results" MODIFIED="1467275926682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/project_markdaleman$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1467293148262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTests_test_negatief.coverage" NAME="Unittest MyTests.test_negatief Coverage Results" MODIFIED="1467299195037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_MyTests__1_.coverage" NAME="Unittests in MyTests (1) Coverage Results" MODIFIED="1467299233945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_database_tests.coverage" NAME="Unittests in database_tests Coverage Results" MODIFIED="1467299211718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTest_test_sqlite3_connect.coverage" NAME="Unittest MyTest.test_sqlite3_connect Coverage Results" MODIFIED="1467297228643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTest_test__2_.coverage" NAME="Unittest MyTest.test (2) Coverage Results" MODIFIED="1467296235147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_MyTest__1_.coverage" NAME="Unittests in MyTest (1) Coverage Results" MODIFIED="1467297311151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTests_test_positief.coverage" NAME="Unittest MyTests.test_positief Coverage Results" MODIFIED="1467299198044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_markdaleman$onetweet.coverage" NAME="onetweet Coverage Results" MODIFIED="1464857076565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_tests.coverage" NAME="Unittests in database_tests Coverage Results" MODIFIED="1467298460186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$unittest.coverage" NAME="unittest Coverage Results" MODIFIED="1467296020255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_MyTests.coverage" NAME="Unittests in MyTests Coverage Results" MODIFIED="1467299192188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$analyse.coverage" NAME="analyse Coverage Results" MODIFIED="1467291548432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_MyTest__5_.coverage" NAME="Unittests in MyTest (5) Coverage Results" MODIFIED="1467297113311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1467294555304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTest_test__1_.coverage" NAME="Unittest MyTest.test (1) Coverage Results" MODIFIED="1467296202016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTests_test_neutraal.coverage" NAME="Unittest MyTests.test_neutraal Coverage Results" MODIFIED="1467299121008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTest_test.coverage" NAME="Unittest MyTest.test Coverage Results" MODIFIED="1467296397191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_MyTests__2_.coverage" NAME="Unittests in MyTests (2) Coverage Results" MODIFIED="1467298323298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_MyTest__2_.coverage" NAME="Unittests in MyTest (2) Coverage Results" MODIFIED="1467297055492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$test.coverage" NAME="test Coverage Results" MODIFIED="1467275926682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_analyse.coverage" NAME="Unittests in analyse Coverage Results" MODIFIED="1467297357505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTests_test_sqlite3_connect_fail.coverage" NAME="Unittest MyTests.test_sqlite3_connect_fail Coverage Results" MODIFIED="1467298570963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTest_test_sqlite3_connect__1_.coverage" NAME="Unittest MyTest.test_sqlite3_connect (1) Coverage Results" MODIFIED="1467297296935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTests_test_sqlite3_connect.coverage" NAME="Unittest MyTests.test_sqlite3_connect Coverage Results" MODIFIED="1467297337986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTests_test_sqlite3_connect_with_sideaffect.coverage" NAME="Unittest MyTests.test_sqlite3_connect_with_sideaffect Coverage Results" MODIFIED="1467298577485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_MyTest.coverage" NAME="Unittests in MyTest Coverage Results" MODIFIED="1467297108807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_database_tests__1_.coverage" NAME="Unittests in database_tests (1) Coverage Results" MODIFIED="1467298278250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_analyse__1_.coverage" NAME="Unittests in analyse (1) Coverage Results" MODIFIED="1467297363686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_MyTest__4_.coverage" NAME="Unittests in MyTest (4) Coverage Results" MODIFIED="1467297080821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -64,42 +85,34 @@
         <entry file="file://$PROJECT_DIR$/analyse.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1467291555000" expanded="true" signature="613:822" placeholder="CREATE TABLE... COMPANY" />
-                <marker date="1467291555000" expanded="true" signature="1882:1932" placeholder="INSERT INTO TweetOpslag... " />
-                <marker date="1467291555000" expanded="true" signature="1882:1968" placeholder="INSERT INTO TweetOpslag... " />
-                <marker date="1467291555000" expanded="true" signature="2181:2208" placeholder="SELECT COUNT... Analyse" />
-                <marker date="1467291555000" expanded="true" signature="2181:2219" placeholder="SELECT COUNT... TweetOpslag" />
-                <marker date="1467291555000" expanded="true" signature="2471:2529" placeholder="SELECT COUNT... analyse" />
-                <marker date="1467291555000" expanded="true" signature="2796:2854" placeholder="SELECT COUNT... analyse" />
-                <marker date="1467291555000" expanded="true" signature="3107:3165" placeholder="SELECT COUNT... analyse" />
-                <marker date="1467291555000" expanded="true" signature="3365:3372" placeholder="SELECT strft... " />
-                <marker date="1467291555000" expanded="true" signature="3365:3405" placeholder="SELECT hour,... " />
-                <marker date="1467291555000" expanded="true" signature="3365:3416" placeholder="SELECT Times... TweetOpslag" />
-                <marker date="1467291555000" expanded="true" signature="3365:3454" placeholder="SELECT Times... TweetOpslag" />
+                <element signature="e#0#39#0" expanded="true" />
+                <marker date="1467299267000" expanded="true" signature="960:1169" placeholder="CREATE TABLE... COMPANY" />
+                <marker date="1467299267000" expanded="true" signature="2492:2542" placeholder="INSERT INTO TweetOpslag... " />
+                <marker date="1467299267000" expanded="true" signature="2492:2578" placeholder="INSERT INTO TweetOpslag... " />
+                <marker date="1467299267000" expanded="true" signature="2768:2795" placeholder="SELECT COUNT... Analyse" />
+                <marker date="1467299267000" expanded="true" signature="2768:2806" placeholder="SELECT COUNT... TweetOpslag" />
+                <marker date="1467299267000" expanded="true" signature="3097:3155" placeholder="SELECT COUNT... analyse" />
+                <marker date="1467299267000" expanded="true" signature="3461:3519" placeholder="SELECT COUNT... analyse" />
+                <marker date="1467299267000" expanded="true" signature="3810:3868" placeholder="SELECT COUNT... analyse" />
+                <marker date="1467299267000" expanded="true" signature="4128:4135" placeholder="SELECT strft... " />
+                <marker date="1467299267000" expanded="true" signature="4128:4168" placeholder="SELECT hour,... " />
+                <marker date="1467299267000" expanded="true" signature="4128:4179" placeholder="SELECT Times... TweetOpslag" />
+                <marker date="1467299267000" expanded="true" signature="4128:4217" placeholder="SELECT Times... TweetOpslag" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.672">
-              <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4c376bc1-5dac-4b88-943f-8d66d8d42096/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.34509203">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,8 +154,11 @@
         <option value="$PROJECT_DIR$/tkinter.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/onetweet.py" />
-        <option value="$PROJECT_DIR$/analyse.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/unittest.py" />
+        <option value="$PROJECT_DIR$/database_tests.py" />
+        <option value="$PROJECT_DIR$/tests.py" />
+        <option value="$PROJECT_DIR$/analyse.py" />
       </list>
     </option>
   </component>
@@ -218,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,7 +255,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -254,13 +270,11 @@
       <recent name="$PROJECT_DIR$/database_backup_10000" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.helloworld">
-    <configuration default="false" name="helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in MyTests (1)">
+    <configuration default="false" name="Unittests in MyTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -268,17 +282,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project_markdaleman" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database_tests.py" />
+      <option name="CLASS_NAME" value="MyTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="onetweet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest MyTests.test_negatief" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -286,17 +305,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project_markdaleman" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onetweet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database_tests.py" />
+      <option name="CLASS_NAME" value="MyTests" />
+      <option name="METHOD_NAME" value="test_negatief" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest MyTests.test_positief" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -304,17 +328,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project_markdaleman" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database_tests.py" />
+      <option name="CLASS_NAME" value="MyTests" />
+      <option name="METHOD_NAME" value="test_positief" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittests in database_tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -322,17 +351,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project_markdaleman" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database_tests.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="analyse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittests in MyTests (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -340,9 +374,16 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project_markdaleman" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analyse.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests.py" />
+      <option name="CLASS_NAME" value="MyTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -539,19 +580,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.helloworld" />
-      <item index="1" class="java.lang.String" itemvalue="Python.onetweet" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tkinter" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.analyse" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in MyTests" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test_negatief" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test_positief" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in database_tests" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in MyTests (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.helloworld" />
-        <item index="1" class="java.lang.String" itemvalue="Python.analyse" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tkinter" />
-        <item index="4" class="java.lang.String" itemvalue="Python.onetweet" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in MyTests (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in database_tests" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test_positief" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test_negatief" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in MyTests" />
       </list>
     </recent_temporary>
   </component>
@@ -647,6 +688,38 @@
     <option name="localTasksCounter" value="14" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittest_MyTests_test_negatief - 2016.06.30 at 17h 06m 36s.xml">
+      <configuration name="Unittest MyTests.test_negatief" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_MyTests_test_neutraal - 2016.06.30 at 16h 57m 03s.xml">
+      <configuration name="Unittest MyTests.test_neutraal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_MyTests_test_neutraal - 2016.06.30 at 16h 57m 12s.xml">
+      <configuration name="Unittest MyTests.test_neutraal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_MyTests_test_neutraal - 2016.06.30 at 16h 57m 22s.xml">
+      <configuration name="Unittest MyTests.test_neutraal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_MyTests_test_neutraal - 2016.06.30 at 17h 05m 13s.xml">
+      <configuration name="Unittest MyTests.test_neutraal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_MyTests_test_neutraal - 2016.06.30 at 17h 05m 22s.xml">
+      <configuration name="Unittest MyTests.test_neutraal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_MyTests_test_positief - 2016.06.30 at 17h 06m 39s.xml">
+      <configuration name="Unittest MyTests.test_positief" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_MyTests - 2016.06.30 at 17h 06m 33s.xml">
+      <configuration name="Unittests in MyTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_MyTests_(1) - 2016.06.30 at 17h 07m 15s.xml">
+      <configuration name="Unittests in MyTests (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_database_tests - 2016.06.30 at 17h 06m 53s.xml">
+      <configuration name="Unittests in database_tests" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -660,7 +733,7 @@
     <frame x="0" y="23" width="1680" height="959" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104395606" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10561661" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33062646" sideWeight="0.5021097" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -723,11 +796,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -736,7 +812,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -745,7 +823,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -754,16 +834,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -781,7 +854,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -799,7 +874,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -817,7 +894,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -835,7 +914,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -853,7 +934,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -871,7 +954,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -889,7 +974,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -907,7 +994,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -925,7 +1014,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -943,7 +1034,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -961,7 +1054,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -979,7 +1074,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -997,7 +1094,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,7 +1114,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,7 +1134,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,7 +1154,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1069,7 +1174,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,14 +1194,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweetdb.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,33 +1218,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analyse.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1467291555000" expanded="true" signature="613:822" placeholder="CREATE TABLE... COMPANY" />
-            <marker date="1467291555000" expanded="true" signature="1882:1932" placeholder="INSERT INTO TweetOpslag... " />
-            <marker date="1467291555000" expanded="true" signature="1882:1968" placeholder="INSERT INTO TweetOpslag... " />
-            <marker date="1467291555000" expanded="true" signature="2181:2208" placeholder="SELECT COUNT... Analyse" />
-            <marker date="1467291555000" expanded="true" signature="2181:2219" placeholder="SELECT COUNT... TweetOpslag" />
-            <marker date="1467291555000" expanded="true" signature="2471:2529" placeholder="SELECT COUNT... analyse" />
-            <marker date="1467291555000" expanded="true" signature="2796:2854" placeholder="SELECT COUNT... analyse" />
-            <marker date="1467291555000" expanded="true" signature="3107:3165" placeholder="SELECT COUNT... analyse" />
-            <marker date="1467291555000" expanded="true" signature="3365:3372" placeholder="SELECT strft... " />
-            <marker date="1467291555000" expanded="true" signature="3365:3405" placeholder="SELECT hour,... " />
-            <marker date="1467291555000" expanded="true" signature="3365:3416" placeholder="SELECT Times... TweetOpslag" />
-            <marker date="1467291555000" expanded="true" signature="3365:3454" placeholder="SELECT Times... TweetOpslag" />
+            <element signature="e#81#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/tweets.db">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.672">
-          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1467299267000" expanded="true" signature="960:1169" placeholder="CREATE TABLE... COMPANY" />
+            <marker date="1467299267000" expanded="true" signature="2492:2542" placeholder="INSERT INTO TweetOpslag... " />
+            <marker date="1467299267000" expanded="true" signature="2492:2578" placeholder="INSERT INTO TweetOpslag... " />
+            <marker date="1467299267000" expanded="true" signature="2768:2795" placeholder="SELECT COUNT... Analyse" />
+            <marker date="1467299267000" expanded="true" signature="2768:2806" placeholder="SELECT COUNT... TweetOpslag" />
+            <marker date="1467299267000" expanded="true" signature="3097:3155" placeholder="SELECT COUNT... analyse" />
+            <marker date="1467299267000" expanded="true" signature="3461:3519" placeholder="SELECT COUNT... analyse" />
+            <marker date="1467299267000" expanded="true" signature="3810:3868" placeholder="SELECT COUNT... analyse" />
+            <marker date="1467299267000" expanded="true" signature="4128:4135" placeholder="SELECT strft... " />
+            <marker date="1467299267000" expanded="true" signature="4128:4168" placeholder="SELECT hour,... " />
+            <marker date="1467299267000" expanded="true" signature="4128:4179" placeholder="SELECT Times... TweetOpslag" />
+            <marker date="1467299267000" expanded="true" signature="4128:4217" placeholder="SELECT Times... TweetOpslag" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34509203">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
