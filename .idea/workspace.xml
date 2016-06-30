@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8968959d-61e5-4d67-82f4-cbb5ac3993d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyse.py" afterPath="$PROJECT_DIR$/analyse.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tweets.db" afterPath="$PROJECT_DIR$/tweets.db" />
     </list>
     <list id="4c0b32a0-463b-47bf-903d-d1f3e1afef3d" name="Failed commit: Default" comment="v0.6&#10;&#10;- Edited some functions" />
     <ignored path="project_markdaleman.iws" />
@@ -40,6 +41,7 @@
     <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTest_test.coverage" NAME="Unittest MyTest.test Coverage Results" MODIFIED="1467296397191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_MyTests__2_.coverage" NAME="Unittests in MyTests (2) Coverage Results" MODIFIED="1467298323298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_MyTest__2_.coverage" NAME="Unittests in MyTest (2) Coverage Results" MODIFIED="1467297055492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_markdaleman$main.coverage" NAME="main Coverage Results" MODIFIED="1467299783963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_markdaleman$test.coverage" NAME="test Coverage Results" MODIFIED="1467275926682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_markdaleman$Unittests_in_analyse.coverage" NAME="Unittests in analyse Coverage Results" MODIFIED="1467297357505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_markdaleman$Unittest_MyTests_test_sqlite3_connect_fail.coverage" NAME="Unittest MyTests.test_sqlite3_connect_fail Coverage Results" MODIFIED="1467298570963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -85,34 +87,32 @@
         <entry file="file://$PROJECT_DIR$/analyse.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <marker date="1467299267000" expanded="true" signature="960:1169" placeholder="CREATE TABLE... COMPANY" />
-                <marker date="1467299267000" expanded="true" signature="2492:2542" placeholder="INSERT INTO TweetOpslag... " />
-                <marker date="1467299267000" expanded="true" signature="2492:2578" placeholder="INSERT INTO TweetOpslag... " />
-                <marker date="1467299267000" expanded="true" signature="2768:2795" placeholder="SELECT COUNT... Analyse" />
-                <marker date="1467299267000" expanded="true" signature="2768:2806" placeholder="SELECT COUNT... TweetOpslag" />
-                <marker date="1467299267000" expanded="true" signature="3097:3155" placeholder="SELECT COUNT... analyse" />
-                <marker date="1467299267000" expanded="true" signature="3461:3519" placeholder="SELECT COUNT... analyse" />
-                <marker date="1467299267000" expanded="true" signature="3810:3868" placeholder="SELECT COUNT... analyse" />
-                <marker date="1467299267000" expanded="true" signature="4128:4135" placeholder="SELECT strft... " />
-                <marker date="1467299267000" expanded="true" signature="4128:4168" placeholder="SELECT hour,... " />
-                <marker date="1467299267000" expanded="true" signature="4128:4179" placeholder="SELECT Times... TweetOpslag" />
-                <marker date="1467299267000" expanded="true" signature="4128:4217" placeholder="SELECT Times... TweetOpslag" />
+                <element signature="e#0#40#0" expanded="true" />
+                <marker date="1467299703000" expanded="true" signature="994:1203" placeholder="CREATE TABLE... COMPANY" />
+                <marker date="1467299703000" expanded="true" signature="2535:2585" placeholder="INSERT INTO TweetOpslag... " />
+                <marker date="1467299703000" expanded="true" signature="2535:2621" placeholder="INSERT INTO TweetOpslag... " />
+                <marker date="1467299703000" expanded="true" signature="2811:2838" placeholder="SELECT COUNT... Analyse" />
+                <marker date="1467299703000" expanded="true" signature="2811:2849" placeholder="SELECT COUNT... TweetOpslag" />
+                <marker date="1467299703000" expanded="true" signature="3141:3199" placeholder="SELECT COUNT... analyse" />
+                <marker date="1467299703000" expanded="true" signature="3506:3564" placeholder="SELECT COUNT... analyse" />
+                <marker date="1467299703000" expanded="true" signature="3856:3914" placeholder="SELECT COUNT... analyse" />
+                <marker date="1467299703000" expanded="true" signature="4188:4195" placeholder="SELECT strft... " />
+                <marker date="1467299703000" expanded="true" signature="4188:4228" placeholder="SELECT hour,... " />
+                <marker date="1467299703000" expanded="true" signature="4188:4239" placeholder="SELECT Times... TweetOpslag" />
+                <marker date="1467299703000" expanded="true" signature="4188:4277" placeholder="SELECT Times... TweetOpslag" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34509203">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.18404908">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,15 +150,15 @@
         <option value="$PROJECT_DIR$/module.py" />
         <option value="$PROJECT_DIR$/mainApplication.py" />
         <option value="$PROJECT_DIR$/database_backup_10000/config.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tkinter.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/onetweet.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/unittest.py" />
         <option value="$PROJECT_DIR$/database_tests.py" />
         <option value="$PROJECT_DIR$/tests.py" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/analyse.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -270,30 +270,7 @@
       <recent name="$PROJECT_DIR$/database_backup_10000" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in MyTests (1)">
-    <configuration default="false" name="Unittests in MyTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="project_markdaleman" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database_tests.py" />
-      <option name="CLASS_NAME" value="MyTests" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="Unittest MyTests.test_negatief" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -384,6 +361,24 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project_markdaleman" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -580,19 +575,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in MyTests" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test_negatief" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test_positief" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in database_tests" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in MyTests (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test_negatief" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test_positief" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in database_tests" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in MyTests (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in MyTests (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in database_tests" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test_positief" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test_negatief" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in MyTests" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in MyTests (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in database_tests" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test_positief" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test_negatief" />
       </list>
     </recent_temporary>
   </component>
@@ -801,9 +796,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -812,9 +805,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -823,9 +814,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -834,9 +823,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -854,9 +841,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -874,9 +859,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -894,9 +877,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,9 +895,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -934,9 +913,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -954,9 +931,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -974,9 +949,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -994,9 +967,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,9 +985,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,9 +1003,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,9 +1021,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,9 +1039,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,9 +1057,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,9 +1075,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,9 +1093,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,9 +1111,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,9 +1129,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1194,20 +1147,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4c376bc1-5dac-4b88-943f-8d66d8d42096/console.sql">
@@ -1218,14 +1159,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding>
-            <element signature="e#81#95#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.10050251">
+            <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tweets.db">
@@ -1236,35 +1189,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analyse.py">
+    <entry file="file://$PROJECT_DIR$/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.09202454">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <marker date="1467299267000" expanded="true" signature="960:1169" placeholder="CREATE TABLE... COMPANY" />
-            <marker date="1467299267000" expanded="true" signature="2492:2542" placeholder="INSERT INTO TweetOpslag... " />
-            <marker date="1467299267000" expanded="true" signature="2492:2578" placeholder="INSERT INTO TweetOpslag... " />
-            <marker date="1467299267000" expanded="true" signature="2768:2795" placeholder="SELECT COUNT... Analyse" />
-            <marker date="1467299267000" expanded="true" signature="2768:2806" placeholder="SELECT COUNT... TweetOpslag" />
-            <marker date="1467299267000" expanded="true" signature="3097:3155" placeholder="SELECT COUNT... analyse" />
-            <marker date="1467299267000" expanded="true" signature="3461:3519" placeholder="SELECT COUNT... analyse" />
-            <marker date="1467299267000" expanded="true" signature="3810:3868" placeholder="SELECT COUNT... analyse" />
-            <marker date="1467299267000" expanded="true" signature="4128:4135" placeholder="SELECT strft... " />
-            <marker date="1467299267000" expanded="true" signature="4128:4168" placeholder="SELECT hour,... " />
-            <marker date="1467299267000" expanded="true" signature="4128:4179" placeholder="SELECT Times... TweetOpslag" />
-            <marker date="1467299267000" expanded="true" signature="4128:4217" placeholder="SELECT Times... TweetOpslag" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
+    <entry file="file://$PROJECT_DIR$/analyse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34509203">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+            <marker date="1467299703000" expanded="true" signature="994:1203" placeholder="CREATE TABLE... COMPANY" />
+            <marker date="1467299703000" expanded="true" signature="2535:2585" placeholder="INSERT INTO TweetOpslag... " />
+            <marker date="1467299703000" expanded="true" signature="2535:2621" placeholder="INSERT INTO TweetOpslag... " />
+            <marker date="1467299703000" expanded="true" signature="2811:2838" placeholder="SELECT COUNT... Analyse" />
+            <marker date="1467299703000" expanded="true" signature="2811:2849" placeholder="SELECT COUNT... TweetOpslag" />
+            <marker date="1467299703000" expanded="true" signature="3141:3199" placeholder="SELECT COUNT... analyse" />
+            <marker date="1467299703000" expanded="true" signature="3506:3564" placeholder="SELECT COUNT... analyse" />
+            <marker date="1467299703000" expanded="true" signature="3856:3914" placeholder="SELECT COUNT... analyse" />
+            <marker date="1467299703000" expanded="true" signature="4188:4195" placeholder="SELECT strft... " />
+            <marker date="1467299703000" expanded="true" signature="4188:4228" placeholder="SELECT hour,... " />
+            <marker date="1467299703000" expanded="true" signature="4188:4239" placeholder="SELECT Times... TweetOpslag" />
+            <marker date="1467299703000" expanded="true" signature="4188:4277" placeholder="SELECT Times... TweetOpslag" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18404908">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
