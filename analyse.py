@@ -39,8 +39,8 @@ def createDB():
 # Searchquery is voor welke hashtag je wilt zoeken
 def getTweets():
     print("Tweets aan het verzamelen...")
-    maxTweets = 300
-    searchQuery = "python"
+    maxTweets = 10000
+    searchQuery = "trump"
     auth = OAuthHandler(consumer_key, consumer_secret)
     # Zorgen dat de API kan verbinden
     auth.set_access_token(access_token, access_token_secret)
@@ -52,9 +52,8 @@ def getTweets():
         Tweet = (tweet.text)  # Text van de Tweet opslaan
         Source = (tweet.source)  # Vanaf wat is het verzonden
         Hour = (tweet.created_at.hour)  # Welk uur is het getweet ?
-        Analyse = TextBlob(tweet.text)  # E erst maken we er een textblob van
-        Test2 = (Analyse.sentiment.polarity)  # Daarna doen we er een sentiment over heen voor de analyse
-        params = (ID, Tweet, Source, Hour, Test2)  # Parameters voor de Database query voor het invoeren van de gegevens
+        Analyse = text_analyse(Tweet)  # Analyseren van de Text
+        params = (ID, Tweet, Source, Hour, Analyse)  # Parameters voor de Database query voor het invoeren van de gegevens
         conn.execute("INSERT INTO TweetOpslag (ID,Tweet,Source,Timestamp,Analyse) \
       VALUES (?,?,?,?,?)", params);
     # Database wijzigingen opslaan

@@ -59,12 +59,8 @@ def DisplayWindow():
 
     root.mainloop()
 
-def testFunctie():
-
-    print(analyse.getTijdInformatie())
 
 if __name__ == '__main__':
-    #analyse.createTabel()
-    #analyse.getTweets()
-    testFunctie()
-    #DisplayWindow()
+    analyse.createDB()
+    analyse.getTweets()
+    DisplayWindow()
